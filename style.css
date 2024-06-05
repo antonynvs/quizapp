@@ -22,13 +22,6 @@
     --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
 
-body {
-    height: 100svh;
-    background: var(--bg-mobile) var(--bg-color) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 body.escuro{
     --bg-color: #313e51;
     --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
@@ -37,6 +30,13 @@ body.escuro{
     --secondary-text-color: #abc1e1;
     --button-bg: #3b4d66;
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+}
+
+body {
+    height: 100svh;
+    background: var(--bg-mobile) var(--bg-color) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
