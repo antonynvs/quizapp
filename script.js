@@ -19,3 +19,4 @@ function selecionarAssunto(evento) {
     localStorage.setItem("assunto", assunto)
     window.location.href = "./pages/quiz/quiz.html"
 }
+
